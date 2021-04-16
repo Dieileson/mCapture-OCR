@@ -1,0 +1,64 @@
+.imageCrop{
+    max-height: 98%;
+    padding: 2.0rem;
+}
+.App{
+    padding: 0.9rem;
+}
+
+input[type="file"].inputImage {
+    display: none;
+}
+
+.inputLabelImage {
+    padding: 20px 10px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: #333;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttonSelectImage{
+    padding: 20px 10px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: #333;
+    color:#FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: center;
+    margin-top: 1.0em;
+    cursor: pointer;
+}
+.buttonSelectImage:disabled{
+    padding: 20px 10px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: rgb(218, 216, 216);
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    display: center;
+    margin-top: 1.0em;
+    cursor: not-allowed;
+}
+.msgImagemSelect{
+    font: bold;
+    margin: 1.0em;
+    line-height: 1.4em;
+}
+.msgImagemCropped{
+    padding-top: 1.0em;
+}
+.imagesCropped{
+    padding-top: 2rem;
+}
+.deleteItemButton{
+    color: red;
+    cursor: pointer;
+}
